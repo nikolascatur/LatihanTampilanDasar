@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LatihanTampilanDasar</string>
+    <string name="category">Category</string>
+    <string name="date">Date</string>
+    <string name="amount">Amount</string>
+    <string name="repeat">is repeatly</string>
+    <string name="add">Add</string>
+</resources>

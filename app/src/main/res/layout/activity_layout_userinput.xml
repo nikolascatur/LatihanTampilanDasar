@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:padding="2dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="Exit"
+            android:id="@+id/buttonExit"
+            android:layout_weight="2"
+            android:background="#88C344"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="Clear"
+            android:id="@+id/buttonClear"
+            android:layout_weight="2"
+            android:background="#00A7F5"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#445964"
+        android:padding="2dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Username"
+            android:id="@+id/textViewUsername"
+            android:textColor="#ECDC2C"
+            android:textSize="20dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textInputUsername"
+            android:background="#ffffff"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:id="@+id/textViewEmail"
+            android:textSize="20dp"
+            android:textColor="#ECDC2C" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textInputEmail"
+            android:background="#ffffff"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:id="@+id/textViewPassword"
+            android:textColor="#ECDC2C"
+            android:textSize="20dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/textInputPassword"
+            android:background="#ffffff"
+            android:textSize="30dp" />
+
+        <RelativeLayout android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+            </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:background="#827f7f"
+        android:padding="2dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="not valid"
+            android:id="@+id/buttonNotValid"
+            android:layout_weight="3"
+            android:background="#EB1760"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="username displayed here \n email displayed here"
+            android:id="@+id/textViewDisplay"
+
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:textColor="#ffffff"
+            android:background="#445964" />
+
+        <Button
+
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="valid"
+            android:id="@+id/buttonValid"
+            android:layout_weight="3"
+            android:background="#45AF4D"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+    </LinearLayout>
+</LinearLayout>
